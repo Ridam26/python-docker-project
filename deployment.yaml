@@ -30,6 +30,6 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: ridamcloud14/pythonapp
+        image: ${img}
         ports:
         - containerPort: 8000
